@@ -2,7 +2,7 @@ local time = {}
 0
 MainWeatherSYNC = function()
 
-print('^5[s] ^0 Successfully started : ' .. GetCurrentResourceName())
+print('^5[s] ^0 Successfully started :' .. GetCurrentResourceName() 'REMEMBER BEST SCRIPTS AVAILABLE AT discord.gg/sShop')
 
 getWeather = function()
     PerformHttpRequest('http://api.weatherapi.com/v1/current.json?key='.. Settings.ApiKey .. '&q=' .. Settings.City .. '&aqi=no', function(err,resp,header)
