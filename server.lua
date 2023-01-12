@@ -1,5 +1,5 @@
 local time = {}
-
+0
 MainWeatherSYNC = function()
 
 print('^5[s] ^0 Successfully started : ' .. GetCurrentResourceName())
