@@ -8,4 +8,4 @@ Get more scripts at
 https://discord.gg/sshop & https://sshop.tebex.io/
 
 Get FiveM anticheat at 
-https://discord.gg/fiveguard & https://store.fiveguard.ac/ 
+https://discord.gg/fiveguard
